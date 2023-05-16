@@ -1,0 +1,78 @@
+ main function
+   void main() = entry point of the program     
+
+  datatypes
+
+   num  - int , double
+   String = '  ' , "  '",
+   bool  - true , false
+   dynamic   - type change according to value change
+   var           - type depends / set on the value that we initialised first 
+
+   userinput - user can input value at run time  -  stdin - dart:io
+   null aware/null check  - ? / !
+
+ operator  - arithmetic  
+	   assignment       -  +=
+                 relational          - > <  == !=
+	   logical              - &&      ||     !(condition)
+                 unary                -  post and prefix ope 
+	   bitwise & shift   - 10 - 1010   -    & | ^     >>   <<
+                 ternary/conditio - condition ?  true statement : false statement; 
+	   null aware         - condition  ??   (if  the condition is null execute this side);
+
+Assertion  - debuging tool  - assert(condtion , message); -if the condition is false exit from
+                                                                                     the code.
+Control satements   - selection - if , if-else , nested if , else if ladder , switch
+                             - iteration  - for(init;condition; incre/decre){} , while(){} , do{}while()
+                             - jump       - break , continue , return
+                                                 i  % 3 != 0 {  continue ;}
+
+functions     - set of statements  - function name & classname should differernt 
+                     must have a return type or / void
+                     function call -  classobject.functionname();
+	    - main function
+	    - userdefined 
+	    - built in
+                  - lambda / arrow 
+                  - anonymous  
+ sub categories of function              
+	           - default
+                         - with / without return type
+	           - parameterised 
+                                -  optional postional   ([])
+                                -  optional name       ({})      ?      required
+ 		    - optional named with default value - ({type variable name = value})
+Constructor  -  function with same name as classname  & without return type
+                   -  start executes when the object is created   
+                   -  var / classname  object = classname();
+                   -  default
+                   -  parameterised
+                   -  named
+
+collection     - list  set map queue
+
+Variables      - instance -   object.variablename  (if  we access varible from main function/from another class)
+                              class classname{ 
+                                          datatype name = value;
+                                          }
+ 	     - static-  classname.variablename (if  we access varible from main function/from another class)
+                              class classname{ 
+                                     static datatype name = value;
+                                          }
+                   - local  - inside function/constructor/ loop
+ final keyword  -  value cannot changed after setting a variable as final (at runtime)
+                           final datatype variablename = value;
+const key         -value cannot changed after setting a variable as final (at compiletime)
+                            const datatype variablename = value;
+
+
+	
+
+       
+                 
+
+    
+
+
+   
